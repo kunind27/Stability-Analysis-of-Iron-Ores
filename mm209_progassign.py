@@ -12,9 +12,10 @@ Original file is located at
 # Commented out IPython magic to ensure Python compatibility.
 import numpy as np 
 import matplotlib.pyplot as plt
-#import seaborn as sns
-# %matplotlib inline
-#sns.set(color_codes=True)
+import seaborn as sns
+sns.set(color_codes=True)
+# Un-comment it if using the code in Google Colab
+#%matplotlib inline
 
 #FeO to Fe
 def ph2_1(T): 
